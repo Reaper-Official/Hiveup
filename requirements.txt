@@ -1,11 +1,9 @@
-# Core
 tqdm
 yt-dlp
 opencv-python
 torch
 easyocr
 pandas
-
-# Optionnels / qualité de vie
 numpy
 requests
+
