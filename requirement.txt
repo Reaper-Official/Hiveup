@@ -1,8 +1,11 @@
+# Core
+tqdm
 yt-dlp
-opencv-python-headless
+opencv-python
 torch
 easyocr
 pandas
-tqdm
-fastapi[all]
-uvicorn[standard]
+
+# Optionnels / qualité de vie
+numpy
+requests
