@@ -42,7 +42,7 @@ except Exception:
     HAVE_FASTAPI = False
 
 # ------------------------- CONFIG -------------------------
-BASE_DIR = Path(os.environ.get('WORKSPACE', '/workspace/bench_analyzer')).resolve()
+BASE_DIR = Path(os.environ.get('WORKSPACE', '/workspace/Hiveup')).resolve()
 TEMP_DIR = BASE_DIR / 'temp'
 OUT_DIR = BASE_DIR / 'output'
 LOG_DIR = BASE_DIR / 'logs'

@@ -4,6 +4,9 @@
     "dockerfile": "Dockerfile"
   },
   "workspaceFolder": "/workspace/Hiveup",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace/Hiveup,type=bind,consistency=cached"
+  ],
   "forwardPorts": [8000],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
