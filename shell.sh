@@ -1,8 +1,14 @@
-# depuis le repo monté dans /workspace/Hiveup
-python app.py --mode cli --max-videos 1
+cat > /workspace/Hiveup/requirements.txt <<'EOF'
+tqdm
+yt-dlp
+opencv-python
+torch
+easyocr
+pandas
+numpy
+requests
+EOF
 
-docker build -t hiveup-bench .
-docker run --rm -v "$(pwd)/output:/workspace/Hiveup/output" hiveup-bench
+pip install -r /workspace/Hiveup/requirements.txt
 
-export WORKSPACE=/workspace/Hiveup
-python app.py --mode cli
+python -m yt_dlp --version
