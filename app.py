@@ -493,8 +493,6 @@ def main():
     parser.add_argument('--download-threads', type=int, default=MAX_DOWNLOAD_THREADS)
     parser.add_argument('--process-threads', type=int, default=MAX_PROCESS_THREADS)
     args = parser.parse_args()
-
-    global MAX_DOWNLOAD_THREADS, MAX_PROCESS_THREADS
     MAX_DOWNLOAD_THREADS = args.download_threads
     MAX_PROCESS_THREADS = args.process_threads
 
