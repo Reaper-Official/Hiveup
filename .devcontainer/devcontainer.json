@@ -1,0 +1,11 @@
+{
+  "name": "Benchmark Analyzer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspace/Hiveup",
+  "forwardPorts": [8000],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}

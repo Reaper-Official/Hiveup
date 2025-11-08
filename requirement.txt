@@ -1,0 +1,8 @@
+yt-dlp
+opencv-python-headless
+torch
+easyocr
+pandas
+tqdm
+fastapi[all]
+uvicorn[standard]
